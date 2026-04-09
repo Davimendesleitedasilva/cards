@@ -46,12 +46,10 @@ header .logo h1 {
 main {
     background-color: rgb(57, 162, 255);
     flex: 1;
-    background-image: url(assets/fundo2.jpg);
+    background-image: url(assets/p1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
-
-
+    background-size: cover;
 }
 
 main .cards-container {
@@ -68,7 +66,7 @@ main .cards-container {
 .card {
     width: 250px;
     height: 400px;
-    background-color: rgba(194, 194, 194, 0.747);
+    background-color: rgba(255, 255, 255, 0.671);
     border: 3px solid black;
     border-radius: 10px;
     padding: 10px;
@@ -84,9 +82,17 @@ main .cards-container {
     margin-bottom: 20px;
 }
 
-.card h2 {}
+.card h2 {
+    font-size: 22px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-.card p {}
+.card p {
+    font-size: 16px;
+    color: black;
+  
+}
 
 footer {
     background-color: rgb(176, 176, 176);
